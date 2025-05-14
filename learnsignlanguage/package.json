@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "file-type": "^19.0.0",
+    "turbo": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build ",
+    "start": "node ./apps/backend/dist/main"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}

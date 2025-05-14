@@ -1,0 +1,113 @@
+/* .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+.areaOfExpertiesSection {
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  
+  .sarea {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
+    color: #052e61;
+    font-size: 1rem;
+    font-weight: 500 !important;
+    padding: 2rem 1.5rem;
+    place-items: center;
+    transition: transorm .5s;
+  }
+  .sarea h2{
+    font-size: 1rem;
+    margin: 0;
+  }
+  .padding-class{
+    padding-top: 5rem;
+  } */
+
+
+  /* areaOfExpertiesSection.css */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.areaOfExpertiesSection {
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.sarea {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px -2px hsla(0, 0%, 9%, .08), 0 8px 12px -2px hsla(0, 0%, 9%, .16);
+    color: #052e61;
+    font-size: 1rem;
+    font-weight: 500 !important;
+    padding: 2rem 1.5rem;
+    place-items: center;
+    transition: transform .5s;
+}
+
+.sarea h2 {
+    font-size: 1.2rem; /* Slightly larger for emphasis */
+    margin: 0 0 0.5rem 0; /* Add some spacing below */
+    color: #052e61;
+}
+
+.sarea p {
+    margin: 0.25rem 0; /* Spacing between date and score */
+    font-size: 0.9rem; /* Slightly smaller than title */
+    color: #333; /* Softer color for readability */
+}
+
+.padding-class {
+    padding-top: 5rem;
+}
+
+/* Optional hover effect for interactivity */
+.sarea:hover {
+    transform: translateY(-5px);
+}
