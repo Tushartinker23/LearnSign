@@ -13,23 +13,7 @@ The application utilizes a combination of multimedia resources and user-friendly
 - **Interactive Quizzes:** Offers quizzes to test and reinforce learning.
 - **Progress Tracking:** Monitors user progress over time.
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-Ensure you have the following installed:
-
-- Python 3.x
-- pip (Python package installer)
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/BajrangMahawar/CollegeProjectLearnSignLanguage.git
-   cd CollegeProjectLearnSignLanguage
-   pip install -r requirements.txt
  
 
 
